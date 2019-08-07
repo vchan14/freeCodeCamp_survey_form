@@ -1,0 +1,22 @@
+#title{
+  text-align: center; 
+}
+
+body {
+  
+  background-color: rgb(33, 39, 48);
+  text-align: center;
+  left-padding: 40%;
+  right-padding: 40%; 
+}
+
+#survey-content {
+  
+  padding-left: 30%;
+  padding-right: 30%;
+  text-color: white;
+  color: white;
+
+}
+
+

@@ -1,0 +1,203 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <title><h1> UEC Hack </h1></title>
+<head>
+  
+
+<body>
+  <div > 
+    <h1 id="title"> UEC Hackathon Summer 2019 Survey </h1>
+  </div>
+  
+  <div id="survey-content">
+    <div> 
+      <p id="description">Let us know how to improve next year! </p>
+    </div>
+    
+    <form action=" " method="get" id="survey-form">
+      <div class="name-email-age">
+        <label for= "name" id="name-label"> Name: </label>
+        <input type="text" name="name" id="name" 
+               placeholder="Enter your name" required>
+      </div>
+      
+      <div class="name-email-age">
+        <label for= "email" id="email-label"> Email:</label>
+        <input type="email" name="email" id="email" 
+               placeholder="Enter your email" required>
+      </div>
+
+      <div class="name-email-age">
+        <label for= "age" id="number-label"> Age: </label>
+        <input type="number" name="age" id="number" 
+               placeholder="Enter your age" min="12" max="99">
+      </div>
+      
+      <div id="current-role">
+        <label for= "dropdown"> 
+          Which option best describes your current role?
+        </label>
+        <select id="dropdown" required>
+          <option value="" disabled selected>
+            --Please choose an option--
+          </option>
+          <option value="Professor">Professor</option>
+          <option value="Senior">Senior</option>
+          <option value="Junior">Junior</option>
+          <option value="Sophomore">Sophomore</option>
+          <option value="Freshman">Freshman</option>
+          <option value="Highschool">Highschool Student</option>
+        </select>
+      </div>
+      
+      <div id="radio-selection">
+         How likely is that you would recommend 
+          this even to a friend?
+        
+
+          <label for="Definitely">
+          <input type="radio" 
+                 id="definitely" 
+                 name="recommendation" 
+                 value="huey"
+                 checked>Definitely
+          </label>
+
+          <label for="maybe">
+          <input type="radio" 
+                 id="maybe" 
+                 name="recommendation" 
+                 value="maybe"
+                 checked>Maybe
+          </label>
+          
+
+
+          <label for="not-sure">
+          <input type="radio" 
+                 id="not-sure" 
+                 name="recommendation" 
+                 value="not-sure"
+                 checked>Not sure
+          </label>
+          
+        
+      <div class="drop-down-list">
+        <label for= "what-you-like"> 
+          What do you like most in this event:
+        </label>
+        <select id="current-role" required>
+          <option value="" disabled selected>
+            --Select an option--
+          </option>
+          <option value="challenges">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="networking">Networking</option>
+          <option value="goodies">Goodies</option>
+          <option value="foods">Foods</option>
+        </select>
+      </div>
+        
+      <div class="multiple-selections">
+        <label for="things-to-improve">
+          Things that should be improved in the future(Check all that apply):
+       
+         <label for="front-end">
+          <input type="checkbox" 
+                 id="front-end-project" 
+                 name="front-end-project" 
+                 value="front-end-project">
+                 Front end project
+          </label>
+         <label for="back-end">
+          <input type="checkbox" 
+                 id="back-end-project" 
+                 name="back-end-project" 
+                 value="back-end-project">
+                 Back end project
+          </label>
+          
+         <label for="ios-apps">
+          <input type="checkbox" 
+                 id="ios-apps" 
+                 name="ios-apps" 
+                 value="ios-apps">
+                 iOS apps project
+          </label>
+          
+          
+         <label for="capture-the-flag">
+          <input type="checkbox" 
+                 id="capture-the-flag" 
+                 name="capture-the-flag" 
+                 value="capture-the-flag">
+                 Capture the flag
+          </label>
+          
+          
+         <label for="lock-picking">
+          <input type="checkbox" 
+                 id="lock-picking" 
+                 name="lock-pickingt" 
+                 value="lock-picking">
+                 Lock picking
+         </label>
+          
+          
+         <label for="conference-room">
+          <input type="checkbox" 
+                 id="conference-room" 
+                 name="conference-room" 
+                 value="conference-room">
+                 Conference room
+          </label>
+          
+         <label for="presentations">
+          <input type="checkbox" 
+                 id="presentations" 
+                 name="presentations" 
+                 value="presentations">
+                 Presentations
+          </label>
+         <label for="foods">
+          <input type="checkbox" 
+                 id="foods" 
+                 name="foods" 
+                 value="foods">
+                 Foods
+          </label>
+          
+         <label for="additional-materials">
+          <input type="checkbox" 
+                 id="additional-materials" 
+                 name="additional-materials" 
+                 value="additional-materials">
+                 Additonal materials
+          </label>
+          
+                 
+      <div id="comments">
+        <label for= "comments-suggestions">
+          Any Comments or Suggestions?
+        </label>
+        <textarea rows="4" cols="50" name="comment" form="usrform">
+          Enter text here...
+        </textarea>
+
+      </div>
+      
+      <div >
+        <input type="submit" value="submit" id="submit">
+        
+      </div>
+     
+
+
+  </form>
+  
+  
+  
+  
+  
+
+</body>
