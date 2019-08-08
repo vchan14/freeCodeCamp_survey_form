@@ -1,12 +1,17 @@
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html>
+
 <head>
   <title><h1> UEC Hack </h1></title>
-<head>
+  <link rel='stylesheet' type='text/css' href='styles.css'>
+  <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
+
+</head>
   
 
 <body>
   <div > 
-    <h1 id="title"> UEC Hackathon Summer 2019 Survey </h1>
+    <h1 id="title"> UEC Hackathon Fall 2018 Survey </h1>
   </div>
   
   <div id="survey-content">
@@ -14,12 +19,19 @@
       <p id="description">Let us know how to improve next year! </p>
     </div>
     
+
+
     <form action=" " method="get" id="survey-form">
+
+
       <div class="name-email-age">
         <label for= "name" id="name-label"> Name: </label>
         <input type="text" name="name" id="name" 
                placeholder="Enter your name" required>
       </div>
+
+
+
       
       <div class="name-email-age">
         <label for= "email" id="email-label"> Email:</label>
@@ -51,16 +63,18 @@
       </div>
       
       <div id="radio-selection">
-         How likely is that you would recommend 
+         <label for= "radio-selection">
+          How likely is that you would recommend 
           this even to a friend?
+        </label>
         
-
+        <div id="radio-selection-input">
           <label for="Definitely">
           <input type="radio" 
                  id="definitely" 
                  name="recommendation" 
                  value="huey"
-                 checked>Definitely
+                 checked>Sure
           </label>
 
           <label for="maybe">
@@ -70,8 +84,6 @@
                  value="maybe"
                  checked>Maybe
           </label>
-          
-
 
           <label for="not-sure">
           <input type="radio" 
@@ -80,9 +92,12 @@
                  value="not-sure"
                  checked>Not sure
           </label>
+        </div>
+
+      </div>
           
         
-      <div class="drop-down-list">
+      <div id="drop-down-list">
         <label for= "what-you-like"> 
           What do you like most in this event:
         </label>
@@ -98,100 +113,105 @@
         </select>
       </div>
         
-      <div class="multiple-selections">
-        <label for="things-to-improve">
-          Things that should be improved in the future(Check all that apply):
-       
-         <label for="front-end">
-          <input type="checkbox" 
-                 id="front-end-project" 
-                 name="front-end-project" 
-                 value="front-end-project">
-                 Front end project
+      <div id="multiple-selections">
+        <div id="multiple-selections-description">
+          <label for="things-to-improve">
+            Things that should be improved in the future(Check all that apply):
           </label>
-         <label for="back-end">
-          <input type="checkbox" 
-                 id="back-end-project" 
-                 name="back-end-project" 
-                 value="back-end-project">
-                 Back end project
+        </div>
+        
+
+        <div id="multiple-selections-answers">
+          <label for="front-end">
+            <input type="checkbox" 
+                   id="front-end-project" 
+                   name="front-end-project" 
+                   value="front-end-project">
+                   Front end project
           </label>
-          
-         <label for="ios-apps">
-          <input type="checkbox" 
-                 id="ios-apps" 
-                 name="ios-apps" 
-                 value="ios-apps">
-                 iOS apps project
+
+          <label for="back-end">
+            <input type="checkbox" 
+                   id="back-end-project" 
+                   name="back-end-project" 
+                   value="back-end-project">
+                   Back end project
           </label>
           
-          
-         <label for="capture-the-flag">
-          <input type="checkbox" 
-                 id="capture-the-flag" 
-                 name="capture-the-flag" 
-                 value="capture-the-flag">
-                 Capture the flag
+          <label for="ios-apps">
+            <input type="checkbox" 
+                   id="ios-apps" 
+                   name="ios-apps" 
+                   value="ios-apps">
+                   iOS apps project
           </label>
           
           
-         <label for="lock-picking">
-          <input type="checkbox" 
-                 id="lock-picking" 
-                 name="lock-pickingt" 
-                 value="lock-picking">
-                 Lock picking
-         </label>
-          
-          
-         <label for="conference-room">
-          <input type="checkbox" 
-                 id="conference-room" 
-                 name="conference-room" 
-                 value="conference-room">
-                 Conference room
+          <label for="capture-the-flag">
+            <input type="checkbox" 
+                   id="capture-the-flag" 
+                   name="capture-the-flag" 
+                   value="capture-the-flag">
+                   Capture the flag
           </label>
           
-         <label for="presentations">
-          <input type="checkbox" 
-                 id="presentations" 
-                 name="presentations" 
-                 value="presentations">
-                 Presentations
-          </label>
-         <label for="foods">
-          <input type="checkbox" 
-                 id="foods" 
-                 name="foods" 
-                 value="foods">
-                 Foods
+          
+          <label for="lock-picking">
+            <input type="checkbox" 
+                   id="lock-picking" 
+                   name="lock-pickingt" 
+                   value="lock-picking">
+                   Lock picking
           </label>
           
-         <label for="additional-materials">
-          <input type="checkbox" 
-                 id="additional-materials" 
-                 name="additional-materials" 
-                 value="additional-materials">
-                 Additonal materials
+          
+          <label for="conference-room">
+            <input type="checkbox" 
+                   id="conference-room" 
+                   name="conference-room" 
+                   value="conference-room">
+                   Conference room
           </label>
           
-                 
+          <label for="presentations">
+            <input type="checkbox" 
+                   id="presentations" 
+                   name="presentations" 
+                   value="presentations">
+                   Presentations
+          </label>  
+
+          <label for="foods">
+            <input type="checkbox" 
+                   id="foods" 
+                   name="foods" 
+                   value="foods">
+                   Foods
+          </label>
+          
+          <label for="additional-materials">
+            <input type="checkbox" 
+                   id="additional-materials" 
+                   name="additional-materials" 
+                   value="additional-materials">
+                   Additonal materials
+          </label>
+
+        </div>
+      </div>
+
+
       <div id="comments">
         <label for= "comments-suggestions">
           Any Comments or Suggestions?
         </label>
-        <textarea rows="4" cols="50" name="comment" form="usrform">
-          Enter text here...
-        </textarea>
+        <textarea rows="10" cols="50" name="comment" form="usrform">Enter text here...</textarea>
 
       </div>
       
-      <div >
+      <div id = "submit">
         <input type="submit" value="submit" id="submit">
-        
       </div>
-     
-
 
   </form>
   
@@ -201,3 +221,5 @@
   
 
 </body>
+
+</html>

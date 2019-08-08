@@ -1,22 +1,208 @@
-#title{
-  text-align: center; 
-}
-
 body {
   
-  background-color: rgb(33, 39, 48);
-  text-align: center;
-  left-padding: 40%;
-  right-padding: 40%; 
+	background-color: rgb(33, 39, 48);
+
+
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%; 
 }
+
+
+#title{
+  text-align: center; 
+  font-family: 'Beth Ellen', cursive;
+  color: orange;
+  font-size: 45px;
+
+}
+
+
 
 #survey-content {
   
-  padding-left: 30%;
-  padding-right: 30%;
+  background-color: rgb(89, 72, 71);
+  background-color: rgb(66, 74, 87);
+
+  padding-left: 10%;
+  padding-right: 15%;
   text-color: white;
   color: white;
+  padding-top: 2%;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: orange;
+
 
 }
+
+#description {
+  color: orange;
+  font-size: 30px; 
+
+}
+
+form {
+  font-size: 18px;
+  font-family: 'Arimo', sans-serif;
+
+}
+
+
+.name-email-age {
+  display : flex;
+  text-align: right;
+
+
+
+
+}
+
+.name-email-age label {
+  flex:1;
+  padding-right: 10px;
+
+}
+
+.name-email-age input {
+  flex:1;
+  margin-bottom: 20px;
+}
+
+textarea {
+    width: 200px;
+}
+
+#current-role {
+  display : flex;
+  text-align: right;
+}
+
+#current-role label {
+  flex:1;
+  padding-right: 10px;
+
+}
+
+#current-role select {
+  flex:1;
+  margin-bottom: 35px;
+}
+
+
+#radio-selection {
+  display : flex;
+  text-align: right;
+}
+
+#radio-selection label {
+  flex:1;
+  padding-right: 10px;
+
+}
+
+#radio-selection-input {
+  flex:1;
+  display :flex;
+  padding-left: 0px; 
+  justify-content: center;
+  margin-bottom: 35px;
+  text-align: left;
+
+}
+
+#drop-down-list {
+  display: flex;
+  text-align: right;
+}
+
+#drop-down-list label {
+  flex: 1;
+  padding-right: 10px;
+
+}
+
+#drop-down-list select {
+  flex: 1;
+  margin-bottom: 35px;
+
+}
+
+#multiple-selections {
+  display: flex;
+  text-align: right;
+  margin-bottom: px;
+}
+
+#multiple-selections-description {
+  flex: 1;
+  padding-right: 10px;
+
+}
+
+#multiple-selections-answers {
+  flex: 1;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+  float: left;
+
+
+}
+
+#multiple-selections-answers label {
+  flex:1 ;
+  text-align: left;
+}
+
+#comments{
+  display: flex;
+  text-align: right;
+}
+
+#comments label{
+  flex: 1;
+  padding-right: 10px;
+
+}
+
+#comments textarea {
+  flex: 1;
+  margin-bottom: 25px;
+
+
+}
+
+#submit{
+  align-content: center; 
+  margin-bottom: 15px;
+}
+
+
+input {
+  background-color: orange;
+
+}
+
+::placeholder{
+  color: black;
+  opacity: 1;
+
+}
+
+select{
+  background-color: orange;
+}
+
+textarea {
+  background-color: orange;
+  color: black;
+  text-align: left;
+}
+
+
+
+
 
 
